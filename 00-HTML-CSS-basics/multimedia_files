@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MULTIMEDIA</title>
+	<meta	charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div align="center">
+	<h1>Multimedia files</h1>
+	<h2>An image: </h2>
+		<img src="img/pacman.png" width="300" height="300">	</img>
+
+	<h2>A Video: </h2>
+		<video width="320" height="240" controls>
+			  <source src="vid/cow.webm" type="video/webm; codecs=vp8,vorbis">
+			  <source src="vid/cow.ogg"  type="video/ogg; codecs=theora,vorbis">
+			  <source src="vid/cow.mp4"  type="video/mp4">
+		</video>
+	<h2>An Audio: </h2>
+		<audio controls >
+			<source src="aud/aud.mp3">
+		</audio></audio>
+</div>
+</body>
+</html>
