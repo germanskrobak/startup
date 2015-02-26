@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<script type="text/javascript">
+		function hacer_visible(){
+			document.getElementById('inv').style.visibility = "visible";
+			document.formulario.inn.focus()
+			}
+		//link http://bootcamp.aws.af.cm/welcome/tunombre
+		function loadXMLDoc()
+		{
+			var xmlhttp;
+			if (window.XMLHttpRequest)
+			  {// code for IE7+, Firefox, Chrome, Opera, Safari
+			  xmlhttp=new XMLHttpRequest();
+			  }
+			else
+			  {// code for IE6, IE5
+			  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+			  }
+			xmlhttp.onreadystatechange=function()
+			  {
+			  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+			    {
+			    document.getElementById("inv").innerHTML=xmlhttp.responseText;
+			    }
+			    else{
+			    	document.getElementById("inv").style.color="red";
+			    }
+			  }
+			xmlhttp.open("GET","http://bootcamp.aws.af.cm/welcome/" + document.getElementById("inn").value,true);
+			xmlhttp.send();
+		}
+
+	</script>
+</head>
+<body onload="hacer_visible()">
+	<section id="inv">
+		HELLO WORLD!
+	</section>
+	
+	<div>
+		<form name="formulario">
+			<input class="alias" type="text" name="inn" id="inn">
+		</form>
+		<button id="btn" name="btn" onclick="loadXMLDoc()">Botoncito</button>
+	</div>
+	
+
+</body>
+</html>
+
