@@ -1,0 +1,39 @@
+m1 = new Movie()
+>Movie {share: function, like: function, set: function, getName: function, setName: function…}
+m1.set("Iron man", 126)
+>undefined
+m2 = new Movie()
+>Movie {share: function, like: function, set: function, getName: function, setName: function…}
+m2.set("Rapidos furiosos", 120)
+>undefined
+m2.play()
+>Playing: Rapidos furiosos
+>undefined
+m2.stop()
+>index.html:20 Stopped: Rapidos furiosos
+>undefined
+m3 = new DownloadableMovie()
+>DownloadableMovie {share: function, like: function, set: function, getName: function, setName: function…}
+m3.set("Ace ventura",98)
+>undefined
+m3.download()
+>Downloading Ace ventura
+>undefined
+m3.share("Carolina")
+>"Sharing Ace ventura with Carolina"
+m1.like()
+>"Liked Iron man"
+a1 = new Actor()
+>Actor {set: function, setName: function, getName: function, setAge: function, getAge: function}
+a1.set("fulanito",20)
+>undefined
+a2 = new Actor()
+>Actor {set: function, setName: function, getName: function, setAge: function, getAge: function}
+a2.set("menganito",30)
+undefined
+m3.addactor(a1)
+>DownloadableMovie {share: function, like: function, set: function, getName: function, setName: function…}
+m3.addactor(a2)
+>DownloadableMovie {share: function, like: function, set: function, getName: function, setName: function…}
+m3.actors
+>[>Actor,>Actor]
