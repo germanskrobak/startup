@@ -4,15 +4,27 @@
 	<title></title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-
+	<script src="scripts/require.js"></script>
+ 	<script type="text/javascript" src="scripts/movie.js"></script>
+ 	<script type="text/javascript" src="scripts/director.js"></script>
 </head>
 <body>
-	<script  src="require.js"></script>
-	<script type="text/javascript">
-		require(["Movie.js"], function(){
-			alert("cargo todo");
-		});
+	<script>
+	require(['module_movie','module_director'],function (module_movie,module_movie) {
+			require.ready(function()
+			{
+				var mov = require('scripts/movie');
+				var dir = require('scripts/director');
+				function punto6()
+				{
+					movie.set(titulo,genero);
+					director.set(name);
+					director.addQuotes(quote);
+					movie.addDirector(name);
+				}
+			});
+		});		
 	</script>
+
 </body>
 </html>
