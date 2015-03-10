@@ -1,0 +1,61 @@
+/*CSS para el index.html de la actividad de CSS*/
+
+body{
+	background-color: #024959;
+	color: white;
+	border-radius: 15px;
+	padding: 20px;
+	text-align: center;
+	margin:0.25%;
+}
+
+#head{
+	float: top;
+	text-align: center;
+	position: center;
+	background-color: #037E8C;
+	height: 10%;
+	width: 98%;
+	border-radius: 25px;
+}
+
+nav{
+	float: left;
+	margin-top: 1%;
+	background-color: #037E8C;
+	height: 76%;
+	width: 23%;
+	border-radius: 25px;
+}
+
+section{
+	float: left;
+	background-color: #037E8C;
+	width:50%;
+	height:76%;
+	margin:1%;
+	border-radius: 25px;
+}
+
+aside{
+	float: left;
+	margin-top:1%;
+	background-color: #037E8C;
+	width: 23%;
+	height: 76%;
+	border-radius: 25px;	
+}
+
+#head_sect, article, #foot{
+	background-color: #22B1C4;
+	margin: 1%;
+	border-radius: 25px;
+}
+
+#foot2{
+	float: left;
+	height: 10%;
+	width:98%;
+	border-radius: 25px;
+	background-color: #037E8C;
+}
