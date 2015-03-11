@@ -1,5 +1,7 @@
 /*CSS para el index.html de la actividad de CSS*/
-
+*{
+	font-family: verdana;
+}
 body{
 	background-color: #024959;
 	color: white;
@@ -9,8 +11,9 @@ body{
 	margin:0.25%;
 }
 
-#head{
+.header{
 	float: top;
+	font-size: 46px;
 	text-align: center;
 	position: center;
 	background-color: #037E8C;
@@ -19,7 +22,8 @@ body{
 	border-radius: 25px;
 }
 
-nav{
+.navigation{
+	font-size: 12px;
 	float: left;
 	margin-top: 1%;
 	background-color: #037E8C;
@@ -28,7 +32,8 @@ nav{
 	border-radius: 25px;
 }
 
-section{
+.content{
+	font-size: 14px;
 	float: left;
 	background-color: #037E8C;
 	width:50%;
@@ -37,7 +42,8 @@ section{
 	border-radius: 25px;
 }
 
-aside{
+.sidebar{
+	font-size: 10px;
 	float: left;
 	margin-top:1%;
 	background-color: #037E8C;
@@ -46,13 +52,14 @@ aside{
 	border-radius: 25px;	
 }
 
-#head_sect, article, #foot{
+.head_sect, article, .foot{
 	background-color: #22B1C4;
 	margin: 1%;
 	border-radius: 25px;
 }
 
-#foot2{
+.footer{
+	font-size: 10px;
 	float: left;
 	height: 10%;
 	width:98%;
