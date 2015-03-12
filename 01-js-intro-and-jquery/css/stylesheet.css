@@ -1,0 +1,11 @@
+*{
+	margin:10px;
+	
+}
+section{
+	text-align: center;
+}
+
+#sec1{
+	visibility: hidden;
+}
