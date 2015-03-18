@@ -1,0 +1,178 @@
+body{
+	background-color: black;
+}
+header{
+	background-color: #5BAC38;
+	width: 100%;
+	height: 100px;
+	
+	text-align: center;
+
+	color: white;
+	border: 30px;
+	border-bottom-color: green;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+button, input{
+	border-radius: 10px;
+}
+
+#frm_buscar{
+	margin-top: 10px;
+}
+
+#titulo{
+	font-size: 40px;
+}
+
+nav{
+	position: relative;
+	float:left;
+	width: 8%;
+	height: 100%;
+}
+
+#div_artista{
+	text-decoration: underline;
+	height: 120px;
+	
+	background-color: #343739	;
+	text-align: center;
+	border-style:solid;
+	border-color: green;
+	color: white;
+}
+
+#div_album{
+	text-decoration: underline;
+	height: 120px;
+	
+	background-color: #2A2C2E;
+	text-align: center;
+	color: white;
+	
+	border-style:solid;
+	border-color: green;
+	border-top: 0px;
+}
+
+#div_cancion{
+	text-decoration: underline;
+	height: 120px;
+	
+	background-color: #151618;
+	text-align: center;
+	color: white;
+
+	border-style:solid;
+	border-color: green;
+	border-bottom-left-radius: 5px;
+	border-top: 0px;
+}
+
+section{
+	position: relative;
+	width: 80%;
+	height: 80%;
+	float: left;
+	background-color: #100F11 ;
+	color: white;
+
+
+
+	border-color: green;
+	border-bottom-style: solid;
+	border-bottom-color: green;
+}
+
+#titulo_res{
+	background-color: #151618;
+	padding:1px;
+	text-align: center;
+}
+
+
+#lista_canciones{
+
+	width: 99.5%;
+
+	position: absolute;
+	padding: 2px;
+	padding-bottom: 0px;
+	font-size: 24px;
+	text-align: center;
+	color: white;
+}
+
+#sel_todos_resultados{
+	position: absolute;
+	margin-top: 10px;
+	text-align: left;
+	width: 100%;
+
+	
+	
+	border-style:solid;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-color: green;
+	border-top: 0px;
+}
+
+#resultados{
+	position: absolute;
+	margin-top: 40px;
+}
+
+aside{
+	position: relative;
+	float: left;
+	width: 12%;
+	height: 380px;
+}
+
+#nueva_playlist{
+	position: absolute;
+	float: left;
+	width: 97%;
+	height:16%;
+	background-color: #2A2C2E;
+	text-align: center;
+	font-size: 28px;
+
+	border-style:solid;
+	border-color: green;
+	
+}
+#add{
+	background-color: #5BAC38;
+	width: 30px;
+	height: 30px;
+	margin-top:10%;
+	margin-bottom: 10%;
+	margin-left: 45%;
+	margin-right: 45%;
+	border-radius: 50px;
+}
+
+#listas{
+	position: absolute;
+	
+	text-align: center;
+	margin-top: 41.5%;
+	background-color: #151618;
+	
+	width:97%;
+	height: 79.5%;
+	color: white;
+	text-decoration: underline;
+	
+
+
+	border-style:solid;
+	border-color: green;
+	border-bottom-right-radius: 5px;
+}

@@ -1,0 +1,75 @@
+body{
+	background-color: black;
+}
+
+#principal, #capa_1, #or_der, #or_izq, #cara, #ojo_der, #ojo_izq{
+	position: absolute;
+}
+
+
+
+#principal{
+	
+	height: 100px;
+	width: 100px;
+	margin:0px;
+	
+}
+
+#capa_1{
+	background-color: #7B8287;
+	width: 80px;
+	height: 80px;
+	margin-left: 10px;
+	margin-bottom: 9px;
+	margin-top: 10px;
+	border-radius: 40px;
+	
+}
+
+#or_der{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #67C243;
+	margin-left: 50px;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+
+#or_izq{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #67C243;
+	margin-left: 10px;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+
+#cara{
+	background-color: #969696;
+	height: 40px;
+	width: 40px;
+	margin-left: 20px;
+	margin-top: 25px;
+	border-radius: 20px;
+}
+
+#ojo_der{
+	height: 5px;
+	width: 5px;
+	background-color: #54595C;
+	border-radius: 2.5px;
+	margin-top:13px;
+	margin-left: 25px;
+}
+
+#ojo_izq{
+	height: 5px;
+	width: 5px;
+	background-color: #54595C;
+	border-radius: 2.5px;
+	margin-top:13px;
+	margin-left: 13px;
+}
